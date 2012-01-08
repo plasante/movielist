@@ -1,4 +1,7 @@
 class MoviesController < ApplicationController
+  before_filter :authenticate, :only => [:edit]
+  before_filter :admin_user,   :only => :destroy
+  
   # GET /movies
   # GET /movies.xml
   def index
@@ -80,5 +83,11 @@ class MoviesController < ApplicationController
       format.html { redirect_to(movies_url) }
       format.xml  { head :ok }
     end
+  end
+  
+private
+
+  def admin_user
+    redirect_to root_path if !current_user.administrator?
   end
 end

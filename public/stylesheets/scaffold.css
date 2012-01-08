@@ -54,3 +54,15 @@ div.field, div.actions {
   font-size: 12px;
   list-style: square;
 }
+
+.flash.success {
+    background: none repeat scroll 0 0 #E6EFC2;
+    border-color: #C6D880;
+    color: #264409;
+}
+
+.flash.error, .alert {
+    background: none repeat scroll 0 0 #FBE3E4;
+    border-color: #FBC2C4;
+    color: #8A1F11;
+}

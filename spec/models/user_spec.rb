@@ -116,9 +116,31 @@ describe User do
       user.should respond_to('has_password?')
     end
     
-    it "should encrypt the password" do
+    it "should be true for a valid password" do
       user = User.create!(@attr)
       user.has_password?(@attr[:password]).should be_true
+    end
+    
+    it "should be false for an invalid password" do
+      user = User.create!(@attr)
+      user.has_password?("invalid_password").should be_false
+    end
+  end
+  
+  describe "authenticate method" do
+    it "should return user if username/password match" do
+      user = User.create!(@attr)
+      User.authenticate(@attr[:username], @attr[:password]).should == user
+    end
+    
+    it "should be nil if user.username not found in the db" do
+      User.create!(@attr)
+      User.authenticate("invalid_username", @attr[:password]).should be_nil
+    end
+    
+    it "should return nil if both invalid username/password" do
+      User.create!(@attr)
+      User.authenticate("invalid_username","invalid_password").should be_nil
     end
   end
 end
