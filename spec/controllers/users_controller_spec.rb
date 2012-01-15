@@ -132,4 +132,37 @@ describe UsersController do
       end
     end # of USERS_MAX_COUNT has been reached
   end # of POST :create
+  
+  describe "GET :edit" do
+    before(:each) do
+      @user = Factory(:user)
+    end
+    
+    it "should be successful" do
+      get :edit, :id => @user
+      response.should be_success
+    end
+    
+    it "should have the right title" do
+      get :edit, :id => @user
+      response.should have_selector("title", :content => "Edit")
+    end
+    
+    it "should have the right user" do
+      get :edit, :id => @user
+      assigns(:user).should == @user
+    end
+    
+    describe "invalid user" do
+      it "should have a flash error message" do
+        get :edit, :id => 0
+        flash[:error].should =~ /Invalid/i
+      end
+      
+      it "should redirect to the home page" do
+        get :edit, :id => 0
+        response.should redirect_to root_path
+      end
+    end # of describe invalid user
+  end # of describe GET :edit
 end

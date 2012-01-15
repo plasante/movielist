@@ -22,6 +22,12 @@ class UsersController < ApplicationController
   end
 
   def edit
+    @user = User.find_by_id(params[:id])
+    @title = %(Edit user)
+    if @user.nil?
+      flash[:error] = %(Invalid user was requested)
+      redirect_to root_path
+    end
   end
 
   def update
