@@ -31,6 +31,19 @@ class UsersController < ApplicationController
   end
 
   def update
+    @user = User.find_by_id(params[:id])
+    if @user.nil?
+      flash[:error] = %(Invalid user was selected)
+      redirect_to root_path
+    else
+      if @user.update_attributes(params[:user])
+        flash[:notice] = %(Updated #{@user.username})
+        redirect_to @user
+      else
+        @title = %(Edit user)
+        render :edit
+      end
+    end
   end
 
   def index

@@ -165,4 +165,73 @@ describe UsersController do
       end
     end # of describe invalid user
   end # of describe GET :edit
+  
+  describe "PUT :update" do
+    before(:each) do
+      @user = Factory(:user)
+      test_sign_in(@user)
+    end
+    
+    describe "failure" do
+      before(:each) do
+        @attr = { :first_name => "",
+                  :last_name  => "",
+                  :username   => "",
+                  :email      => "",
+                  :password   => "",
+                  :password_confirmation => ""}
+      end
+      
+      it "should render the :edit page" do
+        put :update, :id => @user, :user => @attr
+        response.should render_template('edit')
+      end
+      
+      it "should have the right title" do
+        put :update, :id => @user, :user => @attr
+        response.should have_selector("title", :content => %(Edit user))
+      end
+    end
+    
+    describe "success" do
+      before(:each) do
+        @attr = { :first_name => "Pierrot",
+                  :last_name  => "Lasante",
+                  :username   => "pierrot",
+                  :email      => "pierrot@email.com",
+                  :password   => "123456",
+                  :password_confirmation => "123456"}
+      end
+      
+      it "should change the user's attributes" do
+        put :update, :id => @user, :user => @attr
+        @user.reload
+        @user.first_name.should == @attr[:first_name]
+        @user.last_name.should == @attr[:last_name]
+        @user.encrypted_password.should == assigns(:user).encrypted_password
+      end
+      
+      it "should redirect to the user show page" do
+        put :update, :id => @user, :user => @attr
+        response.should redirect_to( user_path(assigns(:user)))
+      end
+      
+      it "should have a flash message" do
+        put :update, :id => @user, :user => @attr
+        flash[:notice].should =~ /updated/i
+      end
+    end # of describe success
+    
+    describe "invalid user" do
+      it "should have a flash error message" do
+        put :update, :id => 0, :user => {}
+        flash[:error].should =~ /Invalid/i
+      end
+      
+      it "should redirect to the home page" do
+        put :update, :id => 0, :user => {}
+        response.should redirect_to root_path
+      end
+    end # of describe invalid user
+  end # of describe PUT :update
 end
