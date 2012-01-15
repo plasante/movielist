@@ -12,3 +12,11 @@ Factory.define :movie do |movie|
   movie.description            "description"
   movie.rating                 "rating"
 end
+
+Factory.sequence :username do |n|
+  "username-#{n}"
+end
+
+Factory.sequence :email do |n|
+  "example#{n}@email.com"
+end

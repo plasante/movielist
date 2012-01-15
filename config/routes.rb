@@ -1,10 +1,12 @@
 Movielist::Application.routes.draw do
 
+  resources :users
   resources :sessions, :only => [:new,:create,:destroy]
   resources :movies
 
   match '/signin',  :to => "sessions#new"
   match '/signout', :to => "sessions#destroy"
+  match '/signup',  :to => "users#new"
 
   root :to => "movies#index"
   

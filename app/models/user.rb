@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   attr_accessor :password
-  attr_accessible :first_name, :last_name, :username, :email, :password, :password_confirmation
+  attr_accessible :first_name, :last_name, :username, :email, :password, :password_confirmation, :administrator
   
   validates :first_name, :presence     => true,
                          :length       => { :maximum => 50 }
@@ -20,7 +20,9 @@ class User < ActiveRecord::Base
   validates :password,   :presence     => true,
                          :confirmation => true,
                          :length       => { :within => 6..40 }
-                         
+                        
+  validate :max_number_users
+  
   before_save :encrypt_password
                          
   def has_password?( submitted_password )
@@ -55,5 +57,11 @@ private
   
   def secure_hash(string)
     Digest::SHA2.hexdigest(string)
+  end
+  
+  def max_number_users
+    if User.count >= USERS_MAX_COUNT
+      raise "Maximum number of users reached"
+    end
   end
 end

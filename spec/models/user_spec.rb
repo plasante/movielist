@@ -16,6 +16,15 @@ describe User do
     User.create!(@attr)
   end
   
+  it "should not have more than USERS_MAX_COUNT users" do
+    USERS_MAX_COUNT.times do |n|
+      Factory(:user, :email => Factory.next(:email), :username => Factory.next(:username))
+    end
+    lambda do
+      Factory(:user, :email => Factory.next(:email), :username => Factory.next(:username))
+    end.should raise_error("Maximum number of users reached")
+  end
+  
   it "should require a first_name" do
     no_first_name_user = User.new(@attr.merge(:first_name => ""))
     no_first_name_user.should_not be_valid
