@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   attr_accessor :password
-  attr_accessible :first_name, :last_name, :username, :email, :password, :password_confirmation, :administrator
+  attr_accessible :first_name, :last_name, :username, :email, :password, :password_confirmation, :administrator, :lock_version
   
   validates :first_name, :presence     => true,
                          :length       => { :maximum => 50 }
