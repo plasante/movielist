@@ -8,6 +8,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :salt
       t.string :encrypted_password
       t.boolean :administrator
+      t.integer :lock_version
 
       t.timestamps
     end

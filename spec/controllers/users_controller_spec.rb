@@ -233,5 +233,16 @@ describe UsersController do
         response.should redirect_to root_path
       end
     end # of describe invalid user
+    
+    describe "optimistic locking" do
+      it "should redirect to the user edit page" do
+#        @user_first  = User.first
+#        @user_second = User.first
+#        put :update, :id => @user, :user => @attr
+#        response.should redirect_to(user_path(assigns(:user)))
+#        put :update, :id => @user_second, :user => @attr
+#        response.should redirect_to(user_path(assigns(:user)))
+      end
+    end
   end # of describe PUT :update
 end

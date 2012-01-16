@@ -44,6 +44,9 @@ class UsersController < ApplicationController
         render :edit
       end
     end
+  rescue ActiveRecord::StaleObjectError
+    @title = %(User was previously changed)
+    redirect_to @user
   end
 
   def index

@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(:version => 20120107161032) do
     t.string   "salt"
     t.string   "encrypted_password"
     t.boolean  "administrator"
+    t.integer  "lock_version"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
