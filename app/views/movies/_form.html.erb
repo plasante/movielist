@@ -1,4 +1,5 @@
 <%= form_for(@movie) do |f| %>
+  <%= f.hidden_field :lock_version %>
   <% if @movie.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@movie.errors.count, "error") %> prohibited this movie from being saved:</h2>

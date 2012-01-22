@@ -60,16 +60,21 @@ class MoviesController < ApplicationController
   # PUT /movies/1
   # PUT /movies/1.xml
   def update
-    @movie = Movie.find(params[:id])
-
-    respond_to do |format|
-      if @movie.update_attributes(params[:movie])
-        format.html { redirect_to(@movie, :notice => 'Movie was successfully updated.') }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @movie.errors, :status => :unprocessable_entity }
+    begin
+      @movie = Movie.find(params[:id])
+  
+      respond_to do |format|
+        if @movie.update_attributes(params[:movie])
+          format.html { redirect_to(@movie, :notice => 'Movie was successfully updated.') }
+          format.xml  { head :ok }
+        else
+          format.html { render :action => "edit" }
+          format.xml  { render :xml => @movie.errors, :status => :unprocessable_entity }
+        end
       end
+    rescue ActiveRecord::StaleObjectError
+      flash[:error] = %(Movie was already changed)
+      redirect_to @movie
     end
   end
 

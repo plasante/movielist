@@ -61,5 +61,6 @@ describe "Users" do
         response.should have_selector("div.flash.notice", :content => "Welcome")
       end
     end
-  end
+  end # of describe signup
+
 end

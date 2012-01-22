@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(:version => 20120107161032) do
     t.string   "title"
     t.text     "description"
     t.string   "rating"
+    t.integer  "lock_version"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

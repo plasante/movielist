@@ -4,7 +4,8 @@ class CreateMovies < ActiveRecord::Migration
       t.string :title
       t.text :description
       t.string :rating
-
+      t.integer :lock_version
+      
       t.timestamps
     end
   end
