@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
-  before_filter :authenticate, :only => [:edit,:update]
+  before_filter :authenticate, :only => [:edit,:update,:destroy]
+  before_filter :admin_user, :only => :destroy
   
   def new
     @title = %(Sign up)
@@ -66,6 +67,20 @@ class UsersController < ApplicationController
   end
 
   def destroy
+    @user = User.find_by_id(params[:id])
+    if @user.nil?
+      flash[:error] = %(Invalid user was requested)
+      redirect_to root_path
+    else
+      @user.destroy
+      redirect_to users_path
+    end
   end
 
+private
+
+  def admin_user
+    user = User.find_by_id(params[:id])
+    redirect_to root_path if !current_user.administrator? || current_user?(user)
+  end
 end

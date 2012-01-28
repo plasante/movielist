@@ -235,4 +235,56 @@ describe UsersController do
       end
     end # of describe invalid user
   end # of describe PUT :update
+  
+  describe "DELETE :destroy" do
+    before(:each) do
+      @user = Factory(:user)
+    end
+    
+    describe "for non signed-in user" do
+      it "should deny access" do
+        delete :destroy, :id => @user
+        response.should redirect_to signin_path
+        flash[:notice].should =~ /sign in/i
+      end
+    end
+    
+    describe "for non-admin user" do
+      it "should protect the page" do
+        test_sign_in(@user)
+        delete :destroy, :id => @user
+        response.should redirect_to root_path
+      end
+    end
+    
+    describe "for an admin user" do
+      before(:each) do
+        @admin_user = Factory(:user, :username => Factory.next(:username), :email => Factory.next(:email), :administrator => true)
+        test_sign_in(@admin_user)
+      end
+      
+      it "should detect if user has already been deleted" do
+        delete :destroy, :id => 0
+        response.should redirect_to root_path
+        flash[:error].should =~ /invalid/i
+      end
+      
+      it "should destroy the user" do
+        lambda do
+          delete :destroy, :id => @user
+        end.should change(User, :count).by(-1)
+      end
+      
+      it "should redirect to the user index page" do
+        delete :destroy, :id => @user
+        response.should redirect_to users_path
+      end
+      
+      it "should not destroy itself" do
+        lambda do
+          delete :destroy, :id => @admin_user
+        end.should_not change(User, :count)
+      end
+    end
+  end # of DELETE :destroy
 end
