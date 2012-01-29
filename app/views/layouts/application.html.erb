@@ -11,7 +11,7 @@
 	<span id="logo">Movie List App</span>
 	<ul id="navigation">
 		<li><%= link_to 'movies', movies_path %></li>
-		<li><%= link_to 'users',  "#" %></li>
+		<li><%= link_to 'users',  users_path  %></li>
 		<% if signed_in? %>
 		  <li><%= link_to 'Sign out', signout_path %></li>
 		<% else %>
