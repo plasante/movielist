@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_filter :authenticate, :only => [:edit,:update,:destroy]
   before_filter :admin_user, :only => :destroy
+  before_filter :correct_user, :only => [:edit,:update]
   
   def new
     @title = %(Sign up)
@@ -82,5 +83,11 @@ private
   def admin_user
     user = User.find_by_id(params[:id])
     redirect_to root_path if !current_user.administrator? || current_user?(user)
+  end
+  
+  def correct_user
+    user = User.find_by_id(params[:id])
+    flash[:notice] = %(You are not allowed to edit/update this user)
+    redirect_to root_path unless current_user?(user)
   end
 end

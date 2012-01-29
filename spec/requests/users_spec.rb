@@ -62,5 +62,4 @@ describe "Users" do
       end
     end
   end # of describe signup
-
 end

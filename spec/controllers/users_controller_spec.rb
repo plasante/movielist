@@ -153,18 +153,6 @@ describe UsersController do
       get :edit, :id => @user
       assigns(:user).should == @user
     end
-    
-    describe "invalid user" do
-      it "should have a flash error message" do
-        get :edit, :id => 0
-        flash[:error].should =~ /Invalid/i
-      end
-      
-      it "should redirect to the home page" do
-        get :edit, :id => 0
-        response.should redirect_to root_path
-      end
-    end # of describe invalid user
   end # of describe GET :edit
   
   describe "PUT :update" do
@@ -221,19 +209,7 @@ describe UsersController do
         put :update, :id => @user, :user => @attr
         flash[:notice].should =~ /updated/i
       end
-    end # of describe success
-    
-    describe "invalid user" do
-      it "should have a flash error message" do
-        put :update, :id => 0, :user => {}
-        flash[:error].should =~ /Invalid/i
-      end
-      
-      it "should redirect to the home page" do
-        put :update, :id => 0, :user => {}
-        response.should redirect_to root_path
-      end
-    end # of describe invalid user
+    end # of describe success    
   end # of describe PUT :update
   
   describe "DELETE :destroy" do
@@ -287,4 +263,37 @@ describe UsersController do
       end
     end
   end # of DELETE :destroy
+  
+  describe "authentication of edit/update page" do
+    before(:each) do
+      @user = Factory(:user)
+    end
+    
+    describe "for non-signed in users" do
+      it "should deny access to edit" do
+        get :edit, :id => @user
+        response.should redirect_to signin_path
+        flash[:notice].should =~ /sign in/i
+      end
+      
+      it "should deny access to update" do
+        put :update, :id => @user, :user => {}
+        response.should redirect_to signin_path
+        flash[:notice].should =~ /sign in/i
+      end
+    end
+    
+    describe "for signed in users" do
+      before(:each) do
+        @wrong_user = Factory(:user, :username => Factory.next(:username), :email => Factory.next(:email))
+        test_sign_in(@wrong_user)
+      end
+      
+      it "should require matching user for edit" do
+        get :edit, :id => @user
+        response.should redirect_to root_path
+        flash[:notice].should =~ /not allowed/i
+      end
+    end
+  end
 end

@@ -81,12 +81,13 @@ class MoviesController < ApplicationController
   # DELETE /movies/1
   # DELETE /movies/1.xml
   def destroy
-    @movie = Movie.find(params[:id])
-    @movie.destroy
-
-    respond_to do |format|
-      format.html { redirect_to(movies_url) }
-      format.xml  { head :ok }
+    @movie = Movie.find_by_id(params[:id])
+    if @movie.nil?
+      flash[:error] = %(Invalid movie was requested)
+      redirect_to root_path
+    else
+      @movie.destroy
+      redirect_to movies_path
     end
   end
   
