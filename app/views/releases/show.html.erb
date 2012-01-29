@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Movie:</b>
+  <%= @release.movie_id %>
+</p>
+
+<p>
+  <b>Format:</b>
+  <%= @release.format %>
+</p>
+
+<p>
+  <b>Released on:</b>
+  <%= @release.released_on %>
+</p>
+
+
+<%= link_to 'Edit', edit_release_path(@release) %> |
+<%= link_to 'Back', releases_path %>

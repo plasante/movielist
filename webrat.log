@@ -7285,3 +7285,867 @@ REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
 REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
 REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/323/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/323/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/323/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/324/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/324/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/324 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/324/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/324 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/324"}
+REQUESTING PAGE: POST /movies/324 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/324/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/324 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/324"}
+REQUESTING PAGE: GET /movies/324/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/324"}
+REQUESTING PAGE: POST /movies/324 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/324/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/324 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/324"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/9160 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/327/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/327/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/327/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/328/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/328/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/328 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/328/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/328 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/328"}
+REQUESTING PAGE: POST /movies/328 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/328/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/328 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/328"}
+REQUESTING PAGE: GET /movies/328/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/328"}
+REQUESTING PAGE: POST /movies/328 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/328/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/328 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/328"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/9610 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/331/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/331/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/331/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/332/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/332/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/332 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/332/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/332 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/332"}
+REQUESTING PAGE: POST /movies/332 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/332/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/332 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/332"}
+REQUESTING PAGE: GET /movies/332/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/332"}
+REQUESTING PAGE: POST /movies/332 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/332/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/332 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/332"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/10060 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/335/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/335/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/335/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/336/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/336/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/336 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/336/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/336 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/336"}
+REQUESTING PAGE: POST /movies/336 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/336/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/336 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/336"}
+REQUESTING PAGE: GET /movies/336/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/336"}
+REQUESTING PAGE: POST /movies/336 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/336/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/336 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/336"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/10510 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/3/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/3/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/3/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/4/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/4/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/4 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/4/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/4 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/4"}
+REQUESTING PAGE: POST /movies/4 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/4/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/4 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/4"}
+REQUESTING PAGE: GET /movies/4/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/4"}
+REQUESTING PAGE: POST /movies/4 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/4/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/4 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/4"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/339 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/8/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/8/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/8/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/9/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/9/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/9 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/9/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/9 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/9"}
+REQUESTING PAGE: POST /movies/9 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/9/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/9 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/9"}
+REQUESTING PAGE: GET /movies/9/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/9"}
+REQUESTING PAGE: POST /movies/9 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/9/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/9 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/9"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/789 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/13/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/13/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/13/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/14/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/14/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/14 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/14/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/14 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/14"}
+REQUESTING PAGE: POST /movies/14 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/14/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/14 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/14"}
+REQUESTING PAGE: GET /movies/14/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/14"}
+REQUESTING PAGE: POST /movies/14 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/14/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/14 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/14"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/1239 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/18/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/18/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/18/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/19/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/19/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/19 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/19/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/19 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/19"}
+REQUESTING PAGE: POST /movies/19 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/19/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/19 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/19"}
+REQUESTING PAGE: GET /movies/19/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/19"}
+REQUESTING PAGE: POST /movies/19 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/19/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/19 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/19"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/1689 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/23/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/23/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/23/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/24/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/24/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/24 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/24/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/24 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/24"}
+REQUESTING PAGE: POST /movies/24 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/24/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/24 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/24"}
+REQUESTING PAGE: GET /movies/24/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/24"}
+REQUESTING PAGE: POST /movies/24 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/24/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/24 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/24"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2139 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/29/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/29/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/29/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/30/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/30/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/30 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/30/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/30 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/30"}
+REQUESTING PAGE: POST /movies/30 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/30/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/30 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/30"}
+REQUESTING PAGE: GET /movies/30/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/30"}
+REQUESTING PAGE: POST /movies/30 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/30/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/30 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/30"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2589 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/35/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/35/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/35/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/36/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/36/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/36 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/36/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/36 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/36"}
+REQUESTING PAGE: POST /movies/36 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/36/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/36 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/36"}
+REQUESTING PAGE: GET /movies/36/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/36"}
+REQUESTING PAGE: POST /movies/36 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/36/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/36 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/36"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2929 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/41/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/41/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/41/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/42/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/42/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/42 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/42/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/42 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/42"}
+REQUESTING PAGE: POST /movies/42 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/42/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/42 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/42"}
+REQUESTING PAGE: GET /movies/42/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/42"}
+REQUESTING PAGE: POST /movies/42 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/42/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/42 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/42"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/3379 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/47/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/47/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/47/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/48/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/48/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/48 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/48/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/48 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/48"}
+REQUESTING PAGE: POST /movies/48 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/48/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/48 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/48"}
+REQUESTING PAGE: GET /movies/48/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/48"}
+REQUESTING PAGE: POST /movies/48 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/48/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/48 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/48"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/3719 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/53/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/53/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/53/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/54/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/54/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/54 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/54/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/54 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/54"}
+REQUESTING PAGE: POST /movies/54 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/54/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/54 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/54"}
+REQUESTING PAGE: GET /movies/54/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/54"}
+REQUESTING PAGE: POST /movies/54 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/54/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/54 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/54"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/4169 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/60/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/60/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/60/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/61/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/61/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/61 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/61/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/61 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/61"}
+REQUESTING PAGE: POST /movies/61 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/61/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/61 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/61"}
+REQUESTING PAGE: GET /movies/61/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/61"}
+REQUESTING PAGE: POST /movies/61 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/61/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/61 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/61"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/4619 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/67/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/67/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/67/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/68/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/68/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/68 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/68/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/68 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/68"}
+REQUESTING PAGE: POST /movies/68 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/68/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/68 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/68"}
+REQUESTING PAGE: GET /movies/68/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/68"}
+REQUESTING PAGE: POST /movies/68 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/68/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/68 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/68"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/5069 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/74/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/74/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/74/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/75/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/75/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/75 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/75/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/75 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/75"}
+REQUESTING PAGE: POST /movies/75 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/75/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/75 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/75"}
+REQUESTING PAGE: GET /movies/75/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/75"}
+REQUESTING PAGE: POST /movies/75 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/75/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/75 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/75"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/5519 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/81/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/81/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/81/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/82/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/82/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/82 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/82/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/82 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/82"}
+REQUESTING PAGE: POST /movies/82 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/82/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/82 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/82"}
+REQUESTING PAGE: GET /movies/82/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/82"}
+REQUESTING PAGE: POST /movies/82 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/82/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/82 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/82"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/5969 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/88/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/88/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/88/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/89/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/89/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/89 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/89/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/89 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/89"}
+REQUESTING PAGE: POST /movies/89 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/89/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/89 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/89"}
+REQUESTING PAGE: GET /movies/89/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/89"}
+REQUESTING PAGE: POST /movies/89 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/89/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/89 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/89"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/6419 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/95/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/95/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/95/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/96/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/96/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/96 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/96/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/96 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/96"}
+REQUESTING PAGE: POST /movies/96 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/96/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/96 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/96"}
+REQUESTING PAGE: GET /movies/96/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/96"}
+REQUESTING PAGE: POST /movies/96 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/96/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/96 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/96"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/6869 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/102/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/102/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/102/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/103/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/103/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/103 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/103/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/103 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/103"}
+REQUESTING PAGE: POST /movies/103 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/103/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/103 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/103"}
+REQUESTING PAGE: GET /movies/103/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/103"}
+REQUESTING PAGE: POST /movies/103 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/103/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/103 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/103"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/7319 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/109/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/109/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/109/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/110/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/110/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/110 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/110/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/110 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/110"}
+REQUESTING PAGE: POST /movies/110 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/110/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/110 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/110"}
+REQUESTING PAGE: GET /movies/110/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/110"}
+REQUESTING PAGE: POST /movies/110 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/110/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/110 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/110"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/7769 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/116/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/116/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/116/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/117/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/117/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/117 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/117/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/117 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/117"}
+REQUESTING PAGE: POST /movies/117 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/117/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/117 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/117"}
+REQUESTING PAGE: GET /movies/117/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/117"}
+REQUESTING PAGE: POST /movies/117 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/117/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/117 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/117"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/8219 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/123/edit with {} and HTTP headers {}
+REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/movies/123/edit"}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET http://www.example.com/movies/123/edit with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-298", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"username-299", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /movies/124/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /movies/124/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: POST /movies/124 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/124/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/124 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/124"}
+REQUESTING PAGE: POST /movies/124 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"0", "title"=>"another title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/124/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/124 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/124"}
+REQUESTING PAGE: GET /movies/124/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/movies/124"}
+REQUESTING PAGE: POST /movies/124 with {"utf8"=>"\xE2\x9C\x93", "_method"=>"put", "movie"=>{"lock_version"=>"1", "title"=>"new title", "description"=>"description", "rating"=>"rating"}, "commit"=>"Update Movie"} and HTTP headers {"HTTP_REFERER"=>"/movies/124/edit"}
+REQUESTING PAGE: GET http://www.example.com/movies/124 with {} and HTTP headers {"HTTP_REFERER"=>"/movies/124"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"", "password"=>""}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"", "last_name"=>"", "username"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"lock_version"=>"0", "first_name"=>"Pierre", "last_name"=>"Lasante", "username"=>"plasante", "email"=>"plasante@email.com", "password"=>"123456", "password_confirmation"=>"123456"}, "commit"=>"Create User"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/8669 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"username"=>"plasante", "password"=>"password"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}

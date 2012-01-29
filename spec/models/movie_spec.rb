@@ -26,4 +26,29 @@ describe Movie do
     null_rating_movie = Movie.new(@attr.merge(:rating => nil))
     null_rating_movie.should be_valid
   end
+  
+  describe "releases associations" do
+    before(:each) do
+      @movie = Factory(:movie)
+      @rel1  = Factory(:release, :movie => @movie)
+      @rel2  = Factory(:release, :movie => @movie)
+    end
+    
+    it "should have a releases attribute" do
+      @movie.should respond_to(:releases)
+    end
+    
+    it "should have the releases in the right order" do
+      @movie.releases.should == [@rel1,@rel2]
+    end
+    
+    it "should destroy associated microposts" do
+      @movie.destroy
+      [@rel1,@rel2].each do |release|
+        lambda do
+          Release.find(release)
+        end.should raise_error(ActiveRecord::RecordNotFound)
+      end
+    end
+  end
 end

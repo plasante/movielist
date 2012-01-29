@@ -1,5 +1,7 @@
 Movielist::Application.routes.draw do
 
+  resources :releases
+
   resources :users
   resources :sessions, :only => [:new,:create,:destroy]
   resources :movies

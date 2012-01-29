@@ -13,6 +13,11 @@ Factory.define :movie do |movie|
   movie.rating                 "rating"
 end
 
+Factory.define :release do |release|
+  release.format               "dvd"
+  release.released_on          Time.now.utc
+end
+
 Factory.sequence :username do |n|
   "username-#{n}"
 end
